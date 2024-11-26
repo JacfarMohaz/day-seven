@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+}
+
+.logo i{
+    font-size: 2em;
+}
+.logo h1{
+    font-size: 2.3em;
+}
+
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 2em;
+    font-weight: 500;
+    list-style: none;
+}
+
+.btn-login{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: orangered;
+    font-size: 1em;
+    border: 2px orangered solid;
+    border-radius: 18px;
+}
+
+.btn-register{
+    background-color: orangered;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 18px;
+    border: none;
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+
+/* section two */
+

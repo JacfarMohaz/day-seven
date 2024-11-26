@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Table Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 900px;
+            background-color: #fff;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 15px;
+            text-align: start;
+            border: 1px solid #ddd;
+            /* border-left: 1px solid #ddd; */
+        }
+        th {
+            background-color: #3498db;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        td {
+            color: #555;
+        }
+        caption {
+            font-size: 1.5rem;
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Beautiful Table Design</caption>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Abdullahi</td>
+                <td>28</td>
+                <td>Mogadishu</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ahmed</td>
+                <td>30</td>
+                <td>Hargeisa</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Fatima</td>
+                <td>25</td>
+                <td>Garowe</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Maryam</td>
+                <td>27</td>
+                <td>Baidoa</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
